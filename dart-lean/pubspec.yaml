@@ -1,0 +1,3 @@
+name: dartlean
+dependencies:
+  dio: 3.0.0
