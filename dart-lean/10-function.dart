@@ -22,7 +22,7 @@ int addWithDefault(int x, [int y = 1, int z = 2]) {
   return x + y;
 }
 
-// 命名参数,用{}声明，明确输入的参数值，flutter非常多命名参数
+// 命名参数,用{}声明，明确输入的参数值，flutter非常多命名参数,命名参数就是可选参数
 int addOther({int x = 1, int y=2, int z=3}) {
   return x + y + z;
 }
@@ -39,6 +39,10 @@ bool change ({String name = "lisu"}) {
   return false;
 }
 
+// 如果函数体内包含一个表达式，可以用胖箭头写法
+bool isNoble(int atomicNumber) => _nobleGases[atomicNumber] != null;
+
+// 匿名函数，没有函数名称，可以将匿名函数赋给一个变量，并且将变量添加到集合或者从中删除
 
 main (List <String> args) {
   var a = addWith(10, 2, 3);
@@ -51,3 +55,7 @@ main (List <String> args) {
   print(c);
 
 }
+
+/// Dart是一种真正面向对象的语言，所以函数也是对象并且类型为Function，这意味着函数可以被赋值
+/// 或者作为函数参数
+///

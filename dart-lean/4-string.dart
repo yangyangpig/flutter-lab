@@ -11,10 +11,10 @@ void main () {
   ccc
   ''';
   print(a);
-  // 转义
+  // 转义，单引号可以转义，双引号不行
   String e = 'aaaa \n bbb';
   print(e);
-  // 取消转义
+  // 取消转义，前面加r
   e = r'aaaa \n bbb';
   print(e);
 
