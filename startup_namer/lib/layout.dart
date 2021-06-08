@@ -101,6 +101,9 @@ class MyAppLayOut extends StatelessWidget {
   }
 }
 
+class Widget {
+}
+
 Column _buildButtonColumn(Color color, IconData icon, String label) {
   return Column(
     mainAxisSize: MainAxisSize.min,
