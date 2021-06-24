@@ -1,6 +1,6 @@
 void main() {
   // 泛型使用
-  var l = List <String>();
+  var l = <String>[];
   l.add('aaa');
   l.add('bbb');
   l.add('ccc');

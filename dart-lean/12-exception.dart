@@ -1,5 +1,5 @@
 
-int add ([int x]) {
+int add ([int? x]) {
   if (x == null) {
     throw new NullThrownError();
   }

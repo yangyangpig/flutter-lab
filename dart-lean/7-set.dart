@@ -1,6 +1,8 @@
 void main() {
   // 定义
   var s = Set();
+  // var s = <String>{};
+  // Set<String> names = {};
   s.add("java");
   s.add("php");
   s.add("js");
@@ -42,6 +44,7 @@ void main() {
   // 返向查询
   print(s.lastWhere((element) => element == 'dart'));
 
-  
-
 }
+/// set是一组特定元素的无序集合，Dart支持结合由集合字面量和Set类提供
+/// 从Dart2.3开始，Set可以像List一样支持使用扩展操作符(...和...?)以及Collection的if和for操作
+///

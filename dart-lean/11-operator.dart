@@ -4,7 +4,7 @@ main (List <String> args) {
   var b = a == true ? 'yes':'no';
   print(b);
 
-  // 级联运算符
+  // 级联运算符，让你在同一个对象上连续盗用多个对象的变量或方法
   StringBuffer c = StringBuffer();
   c
     ..write('aaa')

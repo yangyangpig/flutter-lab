@@ -24,7 +24,7 @@ void main() {
 
   // dart语言中，一切对象的默认值都是null
   bool dd;
-  print(dd);
+  //print(dd);
 
 
 

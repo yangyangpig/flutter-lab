@@ -6,7 +6,7 @@ void main () {
   print(a);
 
   // 属性
-  var c = {"name": 'dafd', "web": "dafd.tech"};
+  var c = {"name": 'dafd', "web": "dafd.tech"}; // Dart可以推断c的Set类型为Map<String,String>
   print(c.isEmpty);
   print(c.isNotEmpty);
   print(c.keys);
@@ -14,6 +14,7 @@ void main () {
   // 方法
   // 添加
   var b = Map();
+  // var b = Map<String,String>();
   b.addAll({"name": "lusi", "web": "lusi.com"});
   print(b.containsKey("name"));
   print(b.containsValue("lusi"));
