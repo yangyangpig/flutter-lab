@@ -72,6 +72,23 @@ class Logger {
   }
 }
 
+// 类中的方法
+class Vector {
+  final int x, y;
+
+  Vector(this.x, this.y);
+
+  Vector operator +(Vector v) => Vector(x + v.y, y + v.y);
+
+  Vector operator -(Vector v) => Vector(x - v.y, y - v.y);
+
+
+  void printValue() {
+    print([this.x, this.y]);
+  }
+
+}
+
 
 void main() {
   // var p = new Point.(12, 12);
@@ -91,4 +108,14 @@ void main() {
   var logMap = {'name': 'UI'};
   var loggerJson = Logger.fromJson(logMap);
   loggerJson.log("logger name: " + loggerJson.name);
+
+  final v = Vector(2, 3);
+  final w = Vector(2, 2);
+
+  // v + w 表示 2+2，3+2
+
+  (v + w).printValue();
+
+  var h = Vector(4, 5);
+  h.printValue();
 }

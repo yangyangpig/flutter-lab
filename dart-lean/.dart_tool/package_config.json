@@ -64,10 +64,11 @@
     {
       "name": "dartlean",
       "rootUri": "../",
-      "packageUri": "lib/"
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-06-05T11:27:09.077272Z",
+  "generated": "2021-06-24T07:33:11.107003Z",
   "generator": "pub",
-  "generatorVersion": "2.10.5"
+  "generatorVersion": "2.12.2"
 }
